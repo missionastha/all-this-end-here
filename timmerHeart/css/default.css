@@ -1,0 +1,132 @@
+﻿body {
+  margin: 0;
+  padding: 0;
+  background: rgb(0, 0, 0);
+  font-size: 18px;
+  overflow: auto;
+}
+
+#mainDiv {
+  width: 100%;
+  height: 100%;
+}
+
+#loveHeart {
+  float: left;
+  width: 670px;
+  height: 625px;
+}
+
+#garden {
+  width: 100%;
+  height: 100%;
+}
+
+#elapseClock {
+  text-align: right;
+  font-size: 24px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#words {
+  font-family: "sans-serif";
+  width: 500px;
+  font-size: 30px;
+  color: #666;
+}
+
+#messages {
+  display: none;
+  text-align: center;
+  font-size: 30px;
+}
+
+#elapseClock .digit {
+  font-family: "digit";
+  font-size: 48px;
+  text-align: center;
+}
+
+#loveu {
+  padding: 3px;
+  font-size: 20px;
+  margin-top: 50px;
+  margin-right: 120px;
+  text-align: right;
+  display: none;
+}
+
+#loveu .signature {
+  margin-top: 5px;
+  font-size: 20px;
+  font-style: italic;
+}
+
+#clickSound {
+  display: none;
+}
+
+#code {
+  float: left;
+  width: 500px;
+  height: 550px;
+  color: #003bd0;
+  font-family: "Consolas", "Monaco", "Bitstream Vera Sans Mono", "Courier New",
+    "sans-serif";
+  font-size: 18px;
+}
+
+#code .string {
+  color: #2a36ff;
+}
+
+#code .keyword {
+  color: #7f0055;
+  font-weight: bold;
+}
+
+#code .placeholder {
+  margin-left: 15px;
+}
+
+#code .space {
+  margin-left: 7px;
+}
+
+#code .comments {
+  color: #3f7f5f;
+}
+
+#copyright {
+  margin-top: 10px;
+  text-align: center;
+  width: 100%;
+  color: #666;
+}
+
+#copyright a {
+  color: #666;
+}
+
+#errorMsg {
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  position: absolute;
+  top: 100px;
+  left: 0;
+}
+
+#icon {
+  font-size: 56px;
+  color: red;
+  margin: 50px;
+  align-content: center;
+}
+
+#heartspan {
+  align-content: center;
+  text-align: center;
+  margin: 20px;
+}
